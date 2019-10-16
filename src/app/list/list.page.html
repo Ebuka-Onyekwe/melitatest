@@ -14,11 +14,11 @@
     <ion-item *ngFor="let item of offers">
       <ion-card color="medium">
         <ion-card-header>
-          <ion-card-subtitle>{{item.id}}</ion-card-subtitle>
+          <ion-card-subtitle>Product ID: {{item.id}}</ion-card-subtitle>
           <ion-card-title>{{item.name}}</ion-card-title>
         </ion-card-header>
         <ion-card-content>
-          <p> Offer ends on {{item.contractEndDate | date : "medium"}}</p>
+          <ion-icon name="calendar" slot="start"></ion-icon><p> Offer ends on {{item.contractEndDate | date : "medium"}}</p>
           <p>Offer stars on {{item.contractStartDate | date : "medium"}}</p>
         </ion-card-content>
       </ion-card>
