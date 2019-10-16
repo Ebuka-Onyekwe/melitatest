@@ -1,8 +1,8 @@
 {
   "name": "melitatest",
   "version": "0.0.1",
-  "author": "Ionic Framework",
-  "homepage": "https://ionicframework.com/",
+  "author": "Onyekwe Emmanuel Ebuka",
+  "homepage": "https://github.com/Ebuka-Onyekwe/melitatest",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
