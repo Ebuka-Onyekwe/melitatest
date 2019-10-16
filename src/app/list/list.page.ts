@@ -1,4 +1,4 @@
-import { HttpClient } from '@angular/common/http';
+import { HttpService } from './../http.service';
 import { Component, OnInit } from '@angular/core';
 
 
@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListPage implements OnInit {
   offers;
-  constructor(public http: HttpClient){}
+  constructor(public http: HttpService){}
 
   url = 'https://selfcare-service.demo.melita.com/interview/api/offers'
   

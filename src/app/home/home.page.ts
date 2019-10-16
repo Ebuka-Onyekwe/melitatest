@@ -1,6 +1,6 @@
-
+import { HttpService } from './../http.service';
 import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+
 
 
 @Component({
@@ -11,7 +11,7 @@ import { HttpClient } from '@angular/common/http';
 export class HomePage implements OnInit {
  url = "https://selfcare-service.demo.melita.com/interview/api/offers/100/subscriptions"
 subscriptions;
-  constructor(public http: HttpClient) {}
+  constructor(public http: HttpService) {}
 
   ngOnInit(){
     this.getData()
