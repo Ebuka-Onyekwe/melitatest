@@ -9,4 +9,4 @@ You can install ionic with this command on your terminal/command line : npm inst
 
 Before you run, after this repo has been downloaded/cloned, kindly type the following command in your terminal/command line to install dependencies if any : npm i 
 
-To run this app, type the following command in your terminal/command line : ionic serve
+To run this app, type the following command in your terminal/command line :ng serve or ionic serve
